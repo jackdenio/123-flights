@@ -27,7 +27,7 @@ php artisan serve
 
 ## Rota para ser testado no Postman
 
-```
+
 [https://denio.dev/flights/api/v1/flights](https://denio.dev/flights/api/v1/flights)
-```
+
 
