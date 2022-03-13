@@ -5,7 +5,7 @@ Será retornado um agrupamento de voos com ida e volta organizados pelo tipo de 
 # Instalação:
 
 APi foi desenvolvida com Lumen 8.3.4 (Laravel Components 8.0) e PHP 7.4.3.
-Se faz necessário ter o composer instalado em seu ambiente.
+Se faz necessário ter o composer instalado em seu ambiente. Caso não tenha, segue [link](https://getcomposer.org/doc/00-intro.md)
 
 ## Clonando o repo:
 
@@ -19,7 +19,7 @@ git clone git@github.com:jackdenio/123-flights.git
 composer install
 ```
 
-## Rodando o servidor:
+## Rodando ambiente local:
 
 ```
 php artisan serve
