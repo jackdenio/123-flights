@@ -1,24 +1,26 @@
-# Lumen PHP Framework
+# API de Agrupamento de Voos
 
-[![Build Status](https://travis-ci.org/laravel/lumen-framework.svg)](https://travis-ci.org/laravel/lumen-framework)
-[![Total Downloads](https://img.shields.io/packagist/dt/laravel/lumen-framework)](https://packagist.org/packages/laravel/lumen-framework)
-[![Latest Stable Version](https://img.shields.io/packagist/v/laravel/lumen-framework)](https://packagist.org/packages/laravel/lumen-framework)
-[![License](https://img.shields.io/packagist/l/laravel/lumen)](https://packagist.org/packages/laravel/lumen-framework)
+Será retornado um agrupamento de voos com ida e volta organizados pelo tipo de tarifa. Em cada grupo figurará apenas voos (seja ida ou volta) de mesmo valores.
 
-Laravel Lumen is a stunningly fast PHP micro-framework for building web applications with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Lumen attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as routing, database abstraction, queueing, and caching.
+# Instalação:
 
-## Official Documentation
+APi foi desenvolvida com Lumen 8.3.4 (Laravel Components 8.0) e PHP 7.4.3.
+Se faz necessário ter o composer instalado em seu ambiente.
 
-Documentation for the framework can be found on the [Lumen website](https://lumen.laravel.com/docs).
+## Clonando o repo:
 
-## Contributing
+```
+git clone git@github.com:jackdenio/123-flights.git
+```
 
-Thank you for considering contributing to Lumen! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## Instalando dependências:
 
-## Security Vulnerabilities
+```
+composer install
+```
 
-If you discover a security vulnerability within Lumen, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+## Rodando o servidor:
 
-## License
-
-The Lumen framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+```
+php artisan serve
+```

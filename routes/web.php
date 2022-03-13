@@ -1,4 +1,5 @@
 <?php
+use Illuminate\Support\Facades\View;
 
 /** @var \Laravel\Lumen\Routing\Router $router */
 
@@ -15,7 +16,7 @@
 
 
 $router->get('/', function () use ($router) {
-    return $router->app->version();
+    return view('index');
 });
 
 $router->group(['prefix' => 'api/v1'], function () use ($router) {
