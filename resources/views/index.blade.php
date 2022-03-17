@@ -18,7 +18,7 @@
 <body>
 
     <div id="responsive-imgs">
-      <img src="{{asset('www/app-assets/images/logo.png')}}" alt="denio.dev" style="width: 60%;" />
+      <img src="public/app-assets/images/logo.png" alt="denio.dev" style="width: 60%;" />
     </div>
 
 </body>

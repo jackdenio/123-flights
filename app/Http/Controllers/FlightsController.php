@@ -23,7 +23,7 @@ class FlightsController extends Controller
 
             return [
                 "status"=>true, 
-                //"flights"=>$flightsCollection,
+                "flights"=>$flightsCollection,
                 "groups"=>$flightGrouping['groups'],
                 "totalGroups"=>$flightGrouping['totalGroups'],
                 "totalFlights"=>$flightGrouping['totalFlights'],
