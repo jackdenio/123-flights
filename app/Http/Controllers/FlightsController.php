@@ -22,7 +22,7 @@ class FlightsController extends Controller
             $flightGrouping = $this->getFlightsGrouping($outbound, $inbound, $flightsCollection);          
 
             return [
-                "status"=>true, 
+                //"status"=>true, 
                 "flights"=>$flightsCollection,
                 "groups"=>$flightGrouping['groups'],
                 "totalGroups"=>$flightGrouping['totalGroups'],
